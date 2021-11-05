@@ -1,0 +1,168 @@
+{
+  "name": "Daniel Dirksen",
+  "address": "2801 Lakeview Blvd, Lake Oswego, OR, 97035",
+  "phoneNumber": "(360) 989-0006",
+  "emailAddress": "daniel@dirksen.com",
+  "sections": [
+    {
+      "title": "Education",
+      "items": [
+        {
+          "id": "bu",
+          "title": "Biola University, La Mirada, CA",
+          "subtitle": "B.S. in 3+2 Engineering Physics with a Computer Science Emphasis",
+          "dateRange": "Expected Graduation: May 2024",
+          "current": true,
+          "points": [
+            "4th year transfer, with plans to transfer to USC in the Fall, 2022",
+            "Cumulative GPA: 3.836 (4.0 Scale)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Experience",
+      "items": [
+        {
+          "id": "si",
+          "title": "Summer Engineering Internship | Biola University",
+          "subtitle": "Engineering Intern",
+          "dateRange": "May 2021 - July 2021",
+          "current": false,
+          "points": [
+            "8-week project creating a cannulation device for a research team.",
+            "Created a device to enable a new heart disease research endeavor by standardizing and automating the evaluation of synthetic HDLs.",
+            "Fully responsible for every detail of the project, involving an Arduino-controlled fluid routing system with a state-machine-powered interactive graphical user interface, and 3D/2D CAD."
+          ]
+        },
+        {
+          "id": "is",
+          "title": "Inkslinger",
+          "subtitle": "Graphic Designer",
+          "dateRange": "September 2020 - May 2021",
+          "current": false,
+          "points": [
+            "Designed and created the 2020-2021 edition of the annual Inkslinger magazine",
+            "Created miscelaneous promotional graphics.",
+            "Wrote articles for the Inkslinger Blog.",
+            "Helped curate and screen of submission."
+          ]
+        },
+        {
+          "id": "ss",
+          "title": "Songs for Saplings, Inc",
+          "subtitle": "Full-Stack Web Development",
+          "dateRange": "June 2020 - July 2021",
+          "current": false,
+          "points": [
+            "Built and deployed an iframe-embeddable, cloud-hosted web app for Songs for Saplings, a non-profit music organization.",
+            "Solely responsible for designing coding, according to extensive specifications using Node.js, Express, and React.",
+            "Implemented cookies, usage-logging, automated digital mailing."
+          ]
+        },
+        {
+          "id": "si",
+          "title": "Nanomedicine & Genomics Summer Research Internship | Biola University",
+          "subtitle": "Frontend Web Development",
+          "dateRange": "July 2021 - August 2021",
+          "current": false,
+          "points": [
+            "Created a more usable gene search experience for ORFanID, a web-based service that allows researchers and students to easily search for orphan genes.",
+            "Created functionality for screening, validating, and prettifying FASTA sequence searches.",
+            "Saved time for both the user and the backend by rejecting large, invaid, or self-contradictory searches."
+          ]
+        },
+        {
+          "id": "sl",
+          "title": "Solutional, Inc.",
+          "subtitle": "Contractor doing a wide variety of services for a broad spectrum of companies",
+          "dateRange": "August 2015 - Present",
+          "current": false,
+          "points": [
+            "Bee Thinking, LLC | Used Solidworks to create accurate blueprints for artificial beehive prototypes to be used in large-scale production.",
+            "Curadite, Inc. | Created early mockup sketches for a medical device, finding compromises between aesthetics and usability/manufacturability constraints.",
+            "DeepSurface Security, Inc. | Created a tool to automate market data-collection using javascript, Node.js; created motion-graphics and edited videos for the marketing team."
+          ]
+        },
+        {
+          "id": "sb",
+          "title": "Starbucks",
+          "subtitle": "Barista",
+          "dateRange": "April 2019 - August 2019",
+          "current": false,
+          "points": [
+            "Welcomed customers and accepted orders and payments.",
+            "Prepared and sold goods in various locations."
+          ]
+        },
+        {
+          "id": "ex",
+          "title": "Exodus Books, LLC",
+          "subtitle": "Shipping Clerk",
+          "dateRange": "June 2018 - January 2019",
+          "current": false,
+          "points": [
+            "Received incoming shipments, managed inventory, prepared and processed invoices, fulfilled orders, and maintained a warehouse.",
+            "Communicated with customers through Email, by phone, or in-person to resolve issues, take orders, and recommend products."
+          ]
+        },
+        {
+          "id": "md",
+          "title": "McDonald's",
+          "subtitle": "Food Service",
+          "dateRange": "June 2017 - February 2018",
+          "current": false,
+          "points": [
+            "Cooked and assembled food, closed, and presented at the drive-thru window and front counter."
+          ]
+        },
+        {
+          "id": "wu",
+          "title": "West Union Gardens",
+          "subtitle": "Farm Labor",
+          "dateRange": "June 2015 - July 2015",
+          "current": false,
+          "points": [
+            "Worked during the summer of 2015 setting up and breaking down irrigation systems, harvesting produce, and trimming foliage."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "items": [
+        {
+          "id": "tc",
+          "title": "Hard",
+          "points": [
+            "Arduino programming and circuitry experience using state-machines and interrupts.",
+            "9 years of recreational, academic, and professional programming experience: Matlab, Python, C++, HTML, CSS, Java, Javascript, Rust.",
+            "Professional front- and back-end web development experience.",
+            "Experience with frameworks and libraries such as Tensorflow, Node.js, Express, React, jQuery, three.js, and A-Frame.",
+            "Professional experience with 3D- and 2D- CAD, 3D-printing and lazer-cutting using Solidworks, OnShape, and Blender."
+          ]
+        },
+        {
+          "id": "at",
+          "title": "Artistic",
+          "points": [
+            "Experienced with Adobe products such as Photoshop, After Effects and Illustrator",
+            "Professional experience with graphic design, video-editing, motion-graphics, drawing, and 3D animation, especially in business and tech contexts."
+          ]
+        },
+        {
+          "id": "tm",
+          "title": "Soft",
+          "points": [
+            "Passion for connecting with people, inside and outside the workplace.",
+            "Gained people-skills through various customer-service summer jobs.",
+            "Adaptable and capable in high-stress environments.",
+            "Comfortable with written communication, presentation, and public speaking.",
+            "Self-management with large, complex, multidisplinary tasks.",
+            "Experience with iterative engineering techniques."
+          ]
+        }
+      ]
+    }
+  ]
+}
