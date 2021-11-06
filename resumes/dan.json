@@ -10,12 +10,12 @@
         {
           "id": "bu",
           "title": "Biola University, La Mirada, CA",
-          "subtitle": "B.S. in 3+2 Engineering Physics with a Computer Science Emphasis",
-          "dateRange": "Expected Graduation: May 2024",
+          "subtitle": "B.S. in Engineering Physics with a Computer Science Emphasis",
+          "dateRange": "Expected Graduation: Fall 2021",
           "current": true,
           "points": [
-            "4th year transfer, with plans to transfer to USC in the Fall, 2022",
-            "Cumulative GPA: 3.836 (4.0 Scale)"
+            "Senior, transfer to USC planned in the Fall, 2022.",
+            "GPA: 3.836 (4.0 Scale)"
           ]
         }
       ]
@@ -25,24 +25,23 @@
       "items": [
         {
           "id": "si",
-          "title": "Summer Engineering Internship | Biola University",
+          "title": "SSTH Summer Engineering Internship | Biola University",
           "subtitle": "Engineering Intern",
           "dateRange": "May 2021 - July 2021",
           "current": false,
           "points": [
-            "8-week project creating a cannulation device for a research team.",
-            "Created a device to enable a new heart disease research endeavor by standardizing and automating the evaluation of synthetic HDLs.",
-            "Fully responsible for every detail of the project, involving an Arduino-controlled fluid routing system with a state-machine-powered interactive graphical user interface, and 3D/2D CAD."
+            "Created an automated cannulation device in 8-weeks, which is currently being used by a research team.",
+            "Fully responsible for every aspect of the apparatus, involving an Arduino-controlled fluid routing system with an interactive graphical user interface directed by an interrupt-driven state machine."
           ]
         },
         {
           "id": "is",
-          "title": "Inkslinger",
-          "subtitle": "Graphic Designer",
+          "title": "Inkslinger | Biola University",
+          "subtitle": "Designer",
           "dateRange": "September 2020 - May 2021",
           "current": false,
           "points": [
-            "Designed and created the 2020-2021 edition of the annual Inkslinger magazine",
+            "Created the 2020-2021 edition of the annual <em>Inkslinger</em> magazine.",
             "Created miscelaneous promotional graphics.",
             "Wrote articles for the Inkslinger Blog.",
             "Helped curate and screen of submission."
@@ -51,19 +50,19 @@
         {
           "id": "ss",
           "title": "Songs for Saplings, Inc",
-          "subtitle": "Full-Stack Web Development",
+          "subtitle": "Full-Stack Web Developer",
           "dateRange": "June 2020 - July 2021",
           "current": false,
           "points": [
-            "Built and deployed an iframe-embeddable, cloud-hosted web app for Songs for Saplings, a non-profit music organization.",
-            "Solely responsible for designing coding, according to extensive specifications using Node.js, Express, and React.",
-            "Implemented cookies, usage-logging, automated digital mailing."
+            "Built and deployed an iframe-embeddable, cloud-hosted web app from scratch for <em>Songs for Saplings</em>, a non-profit music organization for kids.",
+            "Matched extensive design specifications using Node.js, Express, and React.",
+            "Implemented opt-in cookies, Mixpanel usage-logging, and automated digital mailing."
           ]
         },
         {
-          "id": "si",
+          "id": "ni",
           "title": "Nanomedicine & Genomics Summer Research Internship | Biola University",
-          "subtitle": "Frontend Web Development",
+          "subtitle": "Frontend Web Developer",
           "dateRange": "July 2021 - August 2021",
           "current": false,
           "points": [
@@ -75,13 +74,13 @@
         {
           "id": "sl",
           "title": "Solutional, Inc.",
-          "subtitle": "Contractor doing a wide variety of services for a broad spectrum of companies",
-          "dateRange": "August 2015 - Present",
+          "subtitle": "Contractor",
+          "dateRange": "August 2015 - January 2021",
           "current": false,
           "points": [
-            "Bee Thinking, LLC | Used Solidworks to create accurate blueprints for artificial beehive prototypes to be used in large-scale production.",
-            "Curadite, Inc. | Created early mockup sketches for a medical device, finding compromises between aesthetics and usability/manufacturability constraints.",
-            "DeepSurface Security, Inc. | Created a tool to automate market data-collection using javascript, Node.js; created motion-graphics and edited videos for the marketing team."
+            "Bee Thinking, LLC | Used Solidworks to create accurate blueprints for artificial beehive prototypes to be used in production.",
+            "Curadite, Inc. | Created the early mockup sketches for a medical device, balancing aesthetics with feasibility.",
+            "DeepSurface Security, Inc. | Created a tool to automate market data-collection using Node.js; created motion-graphics and edited videos for the marketing team."
           ]
         },
         {
@@ -91,8 +90,8 @@
           "dateRange": "April 2019 - August 2019",
           "current": false,
           "points": [
-            "Welcomed customers and accepted orders and payments.",
-            "Prepared and sold goods in various locations."
+            "Welcomed customers and took orders and payments.",
+            "Prepared and sold goods in multiple store locations."
           ]
         },
         {
@@ -102,18 +101,18 @@
           "dateRange": "June 2018 - January 2019",
           "current": false,
           "points": [
-            "Received incoming shipments, managed inventory, prepared and processed invoices, fulfilled orders, and maintained a warehouse.",
-            "Communicated with customers through Email, by phone, or in-person to resolve issues, take orders, and recommend products."
+            "Received incoming shipments, managed inventory, prepared and processed invoices, fulfilled orders, and performed day-to-day warehouse tasks.",
+            "Took orders, reccommended products, and resolved issues via Email, by phone, and face-to-face."
           ]
         },
         {
           "id": "md",
           "title": "McDonald's",
-          "subtitle": "Food Service",
+          "subtitle": "Crew Member",
           "dateRange": "June 2017 - February 2018",
           "current": false,
           "points": [
-            "Cooked and assembled food, closed, and presented at the drive-thru window and front counter."
+            "Cooked and assembled food; closed; presented at the drive-thru window and front counter."
           ]
         },
         {
@@ -123,7 +122,7 @@
           "dateRange": "June 2015 - July 2015",
           "current": false,
           "points": [
-            "Worked during the summer of 2015 setting up and breaking down irrigation systems, harvesting produce, and trimming foliage."
+            "Set up and broke down irrigation systems; harvested produce; pruned foliage."
           ]
         }
       ]
@@ -135,11 +134,11 @@
           "id": "tc",
           "title": "Hard",
           "points": [
-            "Arduino programming and circuitry experience using state-machines and interrupts.",
-            "9 years of recreational, academic, and professional programming experience: Matlab, Python, C++, HTML, CSS, Java, Javascript, Rust.",
+            "Arduino programming experience with state-machines and interrupts.",
+            "9 years of recreational, academic, and professional programming experience (Matlab, Python, C++, Java, Rust, Javascript, HTML, CSS).",
             "Professional front- and back-end web development experience.",
             "Experience with frameworks and libraries such as Tensorflow, Node.js, Express, React, jQuery, three.js, and A-Frame.",
-            "Professional experience with 3D- and 2D- CAD, 3D-printing and lazer-cutting using Solidworks, OnShape, and Blender."
+            "Professional experience with 3D- and 2D-CAD, 3D-printing, and lazer-cutting using Solidworks, OnShape, and Blender."
           ]
         },
         {
@@ -147,19 +146,19 @@
           "title": "Artistic",
           "points": [
             "Experienced with Adobe products such as Photoshop, After Effects and Illustrator",
-            "Professional experience with graphic design, video-editing, motion-graphics, drawing, and 3D animation, especially in business and tech contexts."
+            "Professional experience with graphic design, video-editing, motion-graphics, drawing, and 3D animation, especially in business and tech contexts.",
+            "Passion for music production and sound design."
           ]
         },
         {
           "id": "tm",
           "title": "Soft",
           "points": [
-            "Passion for connecting with people, inside and outside the workplace.",
-            "Gained people-skills through various customer-service summer jobs.",
-            "Adaptable and capable in high-stress environments.",
+            "Passion for connecting with people, inside and outside the workplace, honed through customer-service summer jobs.",
+            "Adaptable and capable in fast-paced, high-stress environments.",
             "Comfortable with written communication, presentation, and public speaking.",
-            "Self-management with large, complex, multidisplinary tasks.",
-            "Experience with iterative engineering techniques."
+            "Independent and self-managing with large, complex, multidisplinary projects.",
+            "Experienced with iterative engineering techniques."
           ]
         }
       ]
