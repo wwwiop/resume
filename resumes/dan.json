@@ -3,6 +3,7 @@
   "address": "2801 Lakeview Blvd, Lake Oswego, OR, 97035",
   "phoneNumber": "(360) 989-0006",
   "emailAddress": "daniel@dirksen.com",
+  "defaultInclusions": "bu-ni-si-ss-sl-tc-tm",
   "sections": [
     {
       "title": "Education",

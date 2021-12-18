@@ -4,6 +4,6 @@ I created this firstly as a test, and secondly as a convienient way to access an
 
 Default: wwwiop.github.io/resume
 Artistic emphasis: wwwiop.github.io/resume
-Software emphasis: wwwiop.github.io/resume?n=dan&i=bu-ni-si-ss-sl-tc-tm
-Food service emphasis (We all need a plan B if OpenAI Codex does us dirty!): wwwiop.github.io/resume?n=dan&i=bu-sb-ex-md-wu-tm
-Succinct: wwwiop.github.io/resume?n=dan&i=bu-ni-si-ss-sl
+Software emphasis: wwwiop.github.io/resume?i=bu-ni-si-ss-sl-tc-tm
+Food service emphasis (If OpenAI Codex does us dirty, I have a plan B.): wwwiop.github.io/resume?i=bu-sb-ex-md-wu-tm
+Succinct: wwwiop.github.io/resume?i=bu-ni-si-ss-sl

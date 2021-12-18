@@ -1,44 +1,44 @@
-let defaultSettings = {
-  n: "dan",
-  i: "bu-ni-si-ss-sl-tc-tm"
-};
-
-let query = {};
-if (document.location.search) {
-  query = Object.fromEntries(document.location.search.substr(1).split("&").map(entry => entry.split("=")));
-}
+let defaultName = "dan";
 
 let settings = {
-  ...defaultSettings,
-  ...query
+  name: defaultName,
+  inclusions: null
+};
+
+if (document.location.search) {
+  let queryString = document.location.search.split("?")[1];
+  let queryStringEntries = queryString.split("&").map(entryString => entryString.split("="));
+  let queryStringObj = Object.fromEntries(queryStringEntries);
+
+  if (queryStringObj.n) settings.name = queryStringObj.n;
+  if (queryStringObj.i) settings.inclusions = queryStringObj.i;
 }
 
-settings.i = settings.i.split("-");
+let resumeData;
 
-let resumeID = settings.n
-
-let resumeJSON;
-fetch(`resumes/${resumeID}.json`)
+fetch(`resumes/${settings.name}.json`)
 .then(response => response.json())
 .then(data => {
+  resumeData = data;
 
-  resumeJSON = data;
+  if (!settings.inclusions) settings.inclusions = resumeData.defaultInclusions;
+  settings.inclusions = settings.inclusions.split("-");
 
-  if (settings.i.length > 0) {
-    resumeJSON.sections.forEach( section => {
-      section.items = section.items.filter(item => settings.i.find( id => item.id == id))
+  if (settings.inclusions.length > 0) {
+    resumeData.sections.forEach( section => {
+      section.items = section.items.filter(item => settings.inclusions.find( id => item.id == id))
     });
-    resumeJSON.sections = resumeJSON.sections.filter(section => section.items.length > 0);
+    resumeData.sections = resumeData.sections.filter(section => section.items.length > 0);
   }
 
-  let phoneNumberPure = resumeJSON.phoneNumber.split("").filter(digit => digit.search(/\(|\)|\s|-/) == -1).join("");
+  let phoneNumberPure = resumeData.phoneNumber.split("").filter(digit => digit.search(/\(|\)|\s|-/) == -1).join("");
 
   let resumeHTML = `
-  <h1>${resumeJSON.name}</h1>
-  <h2>${resumeJSON.address}<br>
-  <a target="_blank" href="tel:${phoneNumberPure}">${resumeJSON.phoneNumber}</a> | <a target="_blank" href="mailto:${resumeJSON.emailAddress}">${resumeJSON.emailAddress}</a></h2>
+  <h1>${resumeData.name}</h1>
+  <h2>${resumeData.address}<br>
+  <a target="_blank" href="tel:${phoneNumberPure}">${resumeData.phoneNumber}</a> | <a target="_blank" href="mailto:${resumeData.emailAddress}">${resumeData.emailAddress}</a></h2>
   ${
-    resumeJSON.sections.map(section => `
+    resumeData.sections.map(section => `
       <h3>${section.title}</h3>
       <div class="divider"></div>
       ${
