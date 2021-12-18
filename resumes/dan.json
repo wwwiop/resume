@@ -11,11 +11,12 @@
           "id": "bu",
           "title": "Biola University, La Mirada, CA",
           "subtitle": "B.S. in Engineering Physics with a Computer Science Emphasis",
-          "dateRange": "Expected Graduation: Fall 2021",
+          "dateRange": "Finished: Fall 2021",
           "current": true,
           "points": [
-            "Senior, transfer to USC planned in the Fall, 2022.",
-            "GPA: 3.836 (4.0 Scale)"
+            "3+2 Program: 3 years at Biola University, 2 years at USC.
+            "Planned transfer to USC: Fall, 2022.",
+            "GPA: 3.836/4.000"
           ]
         }
       ]
@@ -30,8 +31,8 @@
           "dateRange": "May 2021 - July 2021",
           "current": false,
           "points": [
-            "Created an automated cannulation device in 8-weeks, which is currently being used by a research team.",
-            "Fully responsible for every aspect of the apparatus, involving an Arduino-controlled fluid routing system with an interactive graphical user interface directed by an interrupt-driven state machine."
+            "In an 8-week solo project, created an automated cannulation device, currently being used by a heart disease research team.",
+            "Responsible for every aspect of the apparatus, involving an Arduino-controlled fluid routing system with an interactive graphical user interface, directed by an interrupt-driven state machine."
           ]
         },
         {
@@ -44,7 +45,7 @@
             "Created the 2020-2021 edition of the annual <em>Inkslinger</em> magazine.",
             "Created miscelaneous promotional graphics.",
             "Wrote articles for the Inkslinger Blog.",
-            "Helped curate and screen of submission."
+            "Curated and screened submissions."
           ]
         },
         {
@@ -56,7 +57,7 @@
           "points": [
             "Built and deployed an iframe-embeddable, cloud-hosted web app from scratch for <em>Songs for Saplings</em>, a non-profit music organization for kids.",
             "Matched extensive design specifications using Node.js, Express, and React.",
-            "Implemented opt-in cookies, Mixpanel usage-logging, and automated digital mailing."
+            "Implemented opt-in cookies, Mixpanel usage-logging, automated digital mailing, and more."
           ]
         },
         {
@@ -66,9 +67,9 @@
           "dateRange": "July 2021 - August 2021",
           "current": false,
           "points": [
-            "Created a more usable gene search experience for ORFanID, a web-based service that allows researchers and students to easily search for orphan genes.",
+            "Created a more usable gene search experience for <em>ORFanID</em>, a web-based service that allows researchers and students to easily search for orphan genes.",
             "Created functionality for screening, validating, and prettifying FASTA sequence searches.",
-            "Saved time for both the user and the backend by rejecting large, invaid, or self-contradictory searches."
+            "Saved time for both the user and the backend by pre-screening bloated, invaid, or self-contradictory searches."
           ]
         },
         {
@@ -78,9 +79,9 @@
           "dateRange": "August 2015 - January 2021",
           "current": false,
           "points": [
-            "Bee Thinking, LLC | Used Solidworks to create accurate blueprints for artificial beehive prototypes to be used in production.",
-            "Curadite, Inc. | Created the early mockup sketches for a medical device, balancing aesthetics with feasibility.",
-            "DeepSurface Security, Inc. | Created a tool to automate market data-collection using Node.js; created motion-graphics and edited videos for the marketing team."
+            "<em>Bee Thinking, LLC</em> | Used Solidworks to create accurate blueprints for artificial beehive prototypes to be used in production.",
+            "<em>Curadite, Inc.</em> | Created the early mockup sketches for a medical device, balancing aesthetics with feasibility.",
+            "<em>DeepSurface Security, Inc.</em> | Created a tool to automate market data-collection using Node.js; created motion-graphics and edited videos for the marketing team."
           ]
         },
         {
@@ -90,8 +91,8 @@
           "dateRange": "April 2019 - August 2019",
           "current": false,
           "points": [
-            "Welcomed customers and took orders and payments.",
-            "Prepared and sold goods in multiple store locations."
+            "Welcomed customers, took orders and payments.",
+            "Prepared and sold goods; cleaned; opened; and closed in multiple store locations."
           ]
         },
         {
@@ -134,10 +135,10 @@
           "id": "tc",
           "title": "Hard",
           "points": [
-            "Arduino programming experience with state-machines and interrupts.",
+            "Arduino programming with state-machines and interrupts.",
             "9 years of recreational, academic, and professional programming experience (Matlab, Python, C++, Java, Rust, Javascript, HTML, CSS).",
-            "Professional front- and back-end web development experience.",
-            "Experience with frameworks and libraries such as Tensorflow, Node.js, Express, React, jQuery, three.js, and A-Frame.",
+            "Professional front- and back-end web development experience (self-taught).",
+            "Experience with frameworks and libraries such as OpenCV, Tensorflow, NodeJS, Express, React, jQuery, threeJS, and A-Frame.",
             "Professional experience with 3D- and 2D-CAD, 3D-printing, and lazer-cutting using Solidworks, OnShape, and Blender."
           ]
         },
@@ -145,7 +146,7 @@
           "id": "at",
           "title": "Artistic",
           "points": [
-            "Experienced with Adobe products such as Photoshop, After Effects and Illustrator",
+            "Professional experienced with Adobe suite: Indesign, and Illustrator, Photoshop, Premiere Pro, and After Effects",
             "Professional experience with graphic design, video-editing, motion-graphics, drawing, and 3D animation, especially in business and tech contexts.",
             "Passion for music production and sound design."
           ]
@@ -154,11 +155,10 @@
           "id": "tm",
           "title": "Soft",
           "points": [
-            "Passion for connecting with people, inside and outside the workplace, honed through customer-service summer jobs.",
             "Adaptable and capable in fast-paced, high-stress environments.",
             "Comfortable with written communication, presentation, and public speaking.",
-            "Independent and self-managing with large, complex, multidisplinary projects.",
-            "Experienced with iterative engineering techniques."
+            "Timely self-management of large, complex, multidisplinary projects.",
+            "Familiar with iterative engineering techniques."
           ]
         }
       ]
