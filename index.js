@@ -1,16 +1,21 @@
-let query = {
+let defaultSettings = {
   n: "dan",
-  i: "bu-ni-si-ss-sl-tc-tm".split("-")
+  i: "bu-ni-si-ss-sl-tc-tm"
 };
 
+let query = {};
 if (document.location.search) {
-  query = {
-    ...query,
-    ...Object.fromEntries(document.location.search.substr(1).split("&").map(entry => entry.split("=")))
-  };
-  query.i = query.i.split("-");
+  query = Object.fromEntries(document.location.search.substr(1).split("&").map(entry => entry.split("=")));
 }
-let resumeID = query.n || "dan";
+
+let settings = {
+  ...defaultSettings,
+  ...query
+}
+
+settings.i = settings.i.split("-");
+
+let resumeID = settings.n
 
 let resumeJSON;
 fetch(`resumes/${resumeID}.json`)
@@ -19,9 +24,9 @@ fetch(`resumes/${resumeID}.json`)
 
   resumeJSON = data;
 
-  if (query.i.length > 0) {
+  if (settings.i.length > 0) {
     resumeJSON.sections.forEach( section => {
-      section.items = section.items.filter(item => query.i.find( id => item.id == id))
+      section.items = section.items.filter(item => settings.i.find( id => item.id == id))
     });
     resumeJSON.sections = resumeJSON.sections.filter(section => section.items.length > 0);
   }
