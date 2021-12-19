@@ -1,4 +1,9 @@
 let defaultName = "dan";
+let backupURL = "pdf/resume.pdf";
+let onError = function(error) {
+  console.log(error);
+  location.href = backupURL;
+}
 
 let settings = {
   name: defaultName,
@@ -16,6 +21,10 @@ if (document.location.search) {
 
 let resumeData;
 
+let resumeEl = document.getElementById("resume");
+
+resumeEl.innerHTML = "Loading Resume...";
+
 fetch(`resumes/${settings.name}.json`)
 .then(response => response.json())
 .then(data => {
@@ -30,6 +39,8 @@ fetch(`resumes/${settings.name}.json`)
     });
     resumeData.sections = resumeData.sections.filter(section => section.items.length > 0);
   }
+
+  document.title = `${resumeData.name} - Resume`;
 
   let phoneNumberPure = resumeData.phoneNumber.split("").filter(digit => digit.search(/\(|\)|\s|-/) == -1).join("");
 
@@ -65,5 +76,6 @@ fetch(`resumes/${settings.name}.json`)
   }
   `;
 
-  document.getElementById("resume").innerHTML = resumeHTML;
-});
+  resumeEl.innerHTML = resumeHTML;
+})
+.catch(onError);
