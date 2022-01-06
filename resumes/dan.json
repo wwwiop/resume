@@ -12,12 +12,12 @@
           "id": "bu",
           "title": "Biola University, La Mirada, CA",
           "subtitle": "B.S. in Engineering Physics with a Computer Science Emphasis",
-          "dateRange": "Finished: Fall 2021",
+          "dateRange": "August 2019 - Fall 2021",
           "current": true,
           "points": [
             "3+2 Program: 3 years at Biola University, 2 years at USC.",
-            "Planned transfer to USC: Fall, 2022.",
-            "GPA: 3.836/4.000"
+            "Current in gap semester before transfer to USC, Fall, 2022.",
+            "GPA: 3.778/4.000"
           ]
         }
       ]
@@ -57,8 +57,8 @@
           "current": false,
           "points": [
             "Built and deployed an iframe-embeddable, cloud-hosted web app from scratch for <em>Songs for Saplings</em>, a non-profit music organization for kids.",
-            "Matched extensive design specifications using Node.js, Express, and React.",
-            "Implemented opt-in cookies, Mixpanel usage-logging, automated digital mailing, and more."
+            "Matched extensive visual and UX specifications using Node, Express, and React.",
+            "Implemented common features such as opt-in cookies, Mixpanel usage-logging, and automated digital mailing."
           ]
         },
         {
@@ -137,9 +137,9 @@
           "title": "Hard",
           "points": [
             "Arduino programming with state-machines and interrupts.",
-            "9 years of recreational, academic, and professional programming experience (Matlab, Python, C++, Java, Rust, Javascript, HTML, CSS).",
+            "9 years of recreational/academic/professional programming experience (Matlab, Python, C++, Java, Rust, Javascript, HTML, CSS).",
             "Professional front- and back-end web development experience (self-taught).",
-            "Experience with frameworks and libraries such as OpenCV, Tensorflow, NodeJS, Express, React, jQuery, threeJS, and A-Frame.",
+            "Experience with frameworks and libraries such as OpenCV, Tensorflow, NodeJS, Express, React, Vue, jQuery, threeJS, and A-Frame.",
             "Professional experience with 3D- and 2D-CAD, 3D-printing, and lazer-cutting using Solidworks, OnShape, and Blender."
           ]
         },
@@ -156,10 +156,9 @@
           "id": "tm",
           "title": "Soft",
           "points": [
-            "Adaptable and capable in fast-paced, high-stress environments.",
+            "Adaptable and capable in fast-paced environments.",
             "Comfortable with written communication, presentation, and public speaking.",
-            "Timely self-management of large, complex, multidisplinary projects.",
-            "Familiar with iterative engineering techniques."
+            "Timely self-management of large, complex, multidisplinary projects using iterative engineering techniques."
           ]
         }
       ]
