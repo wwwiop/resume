@@ -1,8 +1,9 @@
 {
   "name": "Daniel Dirksen",
-  "address": "2801 Lakeview Blvd, Lake Oswego, OR, 97035",
+  "address": "Lake Oswego, Oregon",
   "phoneNumber": "(360) 989-0006",
   "emailAddress": "daniel@dirksen.com",
+  "githubUsername": "wwwiop",
   "defaultInclusions": "bu-ni-si-ss-sl-tc-tm",
   "sections": [
     {
@@ -11,13 +12,12 @@
         {
           "id": "bu",
           "title": "Biola University, La Mirada, CA",
-          "subtitle": "B.S. in Engineering Physics with a Computer Science Emphasis",
+          "subtitle": "Engineering Physics, Comp. Sci.",
           "dateRange": "Finished: Fall 2021",
           "current": true,
           "points": [
             "3+2 Program: 3 years at Biola University, 2 years at USC.",
-            "Planned transfer to USC: Fall, 2022.",
-            "GPA: 3.836/4.000"
+            "GPA: 3.836; Transfer to USC planned, Fall, 2022."
           ]
         }
       ]
@@ -27,12 +27,12 @@
       "items": [
         {
           "id": "si",
-          "title": "SSTH Summer Engineering Internship | Biola University",
+          "title": "Biola SSTH Summer Engineering Internship",
           "subtitle": "Engineering Intern",
           "dateRange": "May 2021 - July 2021",
           "current": false,
           "points": [
-            "In an 8-week solo project, created an automated cannulation device, currently being used by a heart disease research team.",
+            "In an 8-week project, created an automated cannulation device, currently being used by a heart disease research team.",
             "Responsible for every aspect of the apparatus, involving an Arduino-controlled fluid routing system with an interactive graphical user interface, directed by an interrupt-driven state machine."
           ]
         },
@@ -57,14 +57,14 @@
           "current": false,
           "points": [
             "Built and deployed an iframe-embeddable, cloud-hosted web app from scratch for <em>Songs for Saplings</em>, a non-profit music organization for kids.",
-            "Matched extensive design specifications using Node.js, Express, and React.",
+            "Matched extensive design specifications using Node.js and React.",
             "Implemented opt-in cookies, Mixpanel usage-logging, automated digital mailing, and more."
           ]
         },
         {
           "id": "ni",
-          "title": "Nanomedicine & Genomics Summer Research Internship | Biola University",
-          "subtitle": "Frontend Web Developer",
+          "title": "Nanomedicine & Genomics Summer Research Internship",
+          "subtitle": "Frontend Web Developer Intern",
           "dateRange": "July 2021 - August 2021",
           "current": false,
           "points": [
@@ -134,12 +134,13 @@
       "items": [
         {
           "id": "tc",
-          "title": "Hard",
+          "title": "Technical",
           "points": [
-            "Arduino programming with state-machines and interrupts.",
-            "9 years of recreational, academic, and professional programming experience (Matlab, Python, C++, Java, Rust, Javascript, HTML, CSS).",
-            "Professional front- and back-end web development experience (self-taught).",
-            "Experience with frameworks and libraries such as OpenCV, Tensorflow, NodeJS, Express, React, jQuery, threeJS, and A-Frame.",
+            "Nine continuous years of programming experience",
+            "Languages: Python, C++, Matlab, Java, Rust, Javascript, HTML, CSS.",
+            "Frameorks: OpenCV, Tensorflow, NodeJS, React, jQuery, threeJS, A-Frame.",
+            "Paradigms: Object-oriented programming, entity component systems, state machines with interrupts.",
+            "One year of professional full-stack web-development.",
             "Professional experience with 3D- and 2D-CAD, 3D-printing, and lazer-cutting using Solidworks, OnShape, and Blender."
           ]
         },
@@ -154,12 +155,12 @@
         },
         {
           "id": "tm",
-          "title": "Soft",
+          "title": "Interpersonal",
           "points": [
-            "Adaptable and capable in fast-paced, high-stress environments.",
+            "Adaptable and capable in fast-paced environments.",
             "Comfortable with written communication, presentation, and public speaking.",
             "Timely self-management of large, complex, multidisplinary projects.",
-            "Familiar with iterative engineering techniques."
+            "Practiced iterative engineering paradigms."
           ]
         }
       ]
