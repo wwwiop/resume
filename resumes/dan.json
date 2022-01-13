@@ -57,8 +57,8 @@
           "current": false,
           "points": [
             "Built and deployed an iframe-embeddable, cloud-hosted web app from scratch for <em>Songs for Saplings</em>, a non-profit music organization for kids.",
-            "Matched extensive design specifications using Node.js and React.",
-            "Implemented opt-in cookies, Mixpanel usage-logging, automated digital mailing, and more."
+            "Matched frontend and backend specifications using Node and React.",
+            "Implemented opt-in cookies, Mixpanel usage-logging, automated mailing, and more."
           ]
         },
         {
@@ -159,8 +159,8 @@
           "points": [
             "Adaptable and capable in fast-paced environments.",
             "Comfortable with written communication, presentation, and public speaking.",
-            "Timely self-management of large, complex, multidisplinary projects.",
-            "Practiced iterative engineering paradigms."
+            "Timely self-management of large, complex, multidisplinary projects",
+            "Trained in iterative engineering techniques."
           ]
         }
       ]
