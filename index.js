@@ -1,5 +1,6 @@
 let defaultName = "dan";
-let backupURL = "pdf/resume.pdf";
+// defaults to this pdf if anything goes wrong loading the resume.
+let backupURL = `pdf/${defaultName}.pdf`;
 let onError = function(error) {
   console.log(error);
   location.href = backupURL;
