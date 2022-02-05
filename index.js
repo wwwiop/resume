@@ -52,10 +52,8 @@ fetch(`resumes/${settings.name}.json`)
   <h1>${resumeData.name}</h1>
   <h2>${resumeData.address}<br></h2>
   <h2>  
-    <a target="_blank" href="tel:${phoneNumberPure}">${resumeData.phoneNumber}</a>
-    <span class="divider-vert"></span>
     <a target="_blank" href="mailto:${resumeData.emailAddress}">${resumeData.emailAddress}</a>
-    <span class="divider-vert"></span>
+    <a target="_blank" href="tel:${phoneNumberPure}">${resumeData.phoneNumber}</a>
     <a target="_blank" href="https://www.github.com/${resumeData.githubUsername}">github.com/${resumeData.githubUsername}</a>
   </h2>
   ${
