@@ -4,7 +4,14 @@
   "phoneNumber": "(360) 989-0006",
   "emailAddress": "daniel@dirksen.com",
   "githubUsername": "wwwiop",
-  "defaultInclusions": "bu-ni-si-ss-sl-tc-tm",
+  "presets": [
+    {"name": "artistic", "id": "at", "inclusions": "bu-is-ss-sl-at-tm"},
+    {"name": "cg", "id": "cg", "inclusions": "bu-ni-si-ss-sl-tc-cg"},
+    {"name": "software", "id": "sw", "inclusions": "bu-ni-si-ss-sl-tc-tm"},
+    {"name": "short", "id": "sh", "inclusions": "ni-si-ss-sl-tc"},
+    {"name": "all", "id": "al", "inclusions": "bu-si-is-ss-ni-sl-sb-ex-md-wu-tc-ac-cg-tm"}
+  ],
+  "defautPresetID": "sw",
   "sections": [
     {
       "title": "Education",
@@ -17,7 +24,7 @@
           "current": true,
           "points": [
             "3+2 Program: Biola University (3 years), University of California (2 years).",
-            "Anticipating 0.5 or 1.5 year gap starting Spring 2022 to gain work experience pre-grad."
+            "Anticipating 0.5 or 1.5 year gap starting Spring 2022 to gain pre-grad work experience."
           ]
         }
       ]
@@ -167,11 +174,11 @@
         },
         {
           "id": "tm",
-          "title": "Team",
+          "title": "Team Skills",
           "points": [
-            "Adaptable and capable in fast-paced environments.",
+            "Adaptable and capable in fast-moving environments.",
             "Comfortable with written communication, presentation, and public speaking.",
-            "Able to self-manage large, complex, multidisplinary tasks",
+            "Able to self-manage large, complex, multidisplinary tasks.",
             "Trained in iterative engineering techniques."
           ]
         }

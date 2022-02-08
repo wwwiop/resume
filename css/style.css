@@ -1,21 +1,21 @@
 @font-face {
   font-family: 'Inter';
-  src: url('fonts/Inter.ttf');
+  src: url('../fonts/Inter.ttf');
 }
 
 @font-face {
   font-family: 'Bitter';
-  src: url('fonts/Bitter.ttf');
+  src: url('../fonts/Bitter.ttf');
 }
 
 @font-face {
   font-family: 'RobotoSlab';
-  src: url('fonts/RobotoSlab.ttf');
+  src: url('../fonts/RobotoSlab.ttf');
 }
 
 @font-face {
   font-family: 'RobotoSlabBold';
-  src: url('fonts/RobotoSlab-Bold.ttf');
+  src: url('../fonts/RobotoSlab-Bold.ttf');
 }
 
 :root {
@@ -27,6 +27,7 @@ html {
   padding: 0;
   font-family: RobotoSlab;
   font-size: 10pt;
+  line-height: 1.35;
 }
 
 body {
@@ -75,6 +76,7 @@ h3, a {
 .item-container {
   margin-bottom: 1rem;
 }
+
 
 h4 {
   font-size: 1rem;
