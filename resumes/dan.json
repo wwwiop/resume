@@ -18,14 +18,14 @@
       "items": [
         {
           "id": "bu",
-          "title": "Biola University, La Mirada, CA",
-          "subtitle": "Engineering Physics, Comp. Sci.",
+          "title": "Biola University and University of Southern California (Los Angeles, CA)",
+          "subtitle": "B.S. in Engineering Physics and Computer Science",
           "dateRange": "2019 - 2024",
           "current": true,
           "points": [
-            "3+2 Program: Biola University (3 years), University of Southern California (2 years).",
-            "Anticipating 0.5 or 1.5 year gap starting Spring 2022 to gain pre-grad work experience.",
-            "Major GPA: 3.917 / 4.0"
+            "3+2 Program - Three years at Biola, two years at USC.",
+            "Spring 2022 gap Semester to gain pre-graduation work experience.",
+            "3.9 / 4.0 Major GPA"
           ]
         }
       ]
@@ -146,7 +146,7 @@
           "points": [
             "Nine continuous years of personal/professional programming experience",
             "Languages: Python, C++, Matlab, Java, Rust, Javascript, HTML, CSS.",
-            "Frameorks: OpenCV, Tensorflow, NodeJS, React, jQuery, threeJS, A-Frame.",
+            "Frameorks: OpenCV, Tensorflow, NodeJS, React, Vue, jQuery, threeJS.",
             "Paradigms: Object-oriented programming, entity component systems, state machines with interrupts.",
             "Fluent in client/server communication patterns and creating REST-based HTTP APIs",
             "Three months of professional full-stack web-development.",
@@ -166,20 +166,23 @@
           "id": "cg",
           "title": "Computer Graphics",
           "points": [
-            "10 years of personal 3D computer graphics experience in Blender.",
             "Professional motion-graphics experience using 3D software for tech marketing.",
-            "Well-rounded skillset of major 3D techniques (PBR, texturing, lighting, scripting, modeling, rigging, shading, simulation).",
-            "Project-based A-Frame VR game-development experience on Occulus Quest.",
-            "Proficient in creating and using WebGL shaders for THREE.JS projects."
+            "Project-based VR game-development experience on Occulus Quest.",
+            "Familiar with THREE.js and libraries such as A-Frame, CANNON.js, and React-Three-Fiber",
+            "Proficient in creating and using WebGL shaders for THREE.JS projects.",
+            "Familiar with real-time graphics best-practices.",
+            "Well-rounded skillset of major 3D techniques (PBR, texturing, lighting, modeling, rigging, shading, simulation).",
+            "10 years of personal 3D computer graphics experience in Blender."
           ]
         },
         {
           "id": "tm",
           "title": "Team Skills",
           "points": [
-            "Adaptable and capable in fast-moving environments.",
-            "Comfortable with written communication, presentation, and public speaking.",
-            "Able to self-manage large, complex, multidisplinary tasks.",
+            "Problem-solver, quick learner, critical thinker.",
+            "Thrives in fast-moving, goal-oriented environments.",
+            "Comfortable with writing, presentation, and public speaking.",
+            "Used to self-managing large, complex, multidisplinary projects with little supervision.",
             "Trained in iterative engineering techniques."
           ]
         }
